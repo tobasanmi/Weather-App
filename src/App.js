@@ -20,7 +20,6 @@ function App() {
       .then(jsonResponse=>{
         setWeather(jsonResponse);
         setQuery('');
-        console.log(jsonResponse);
       });
     }
   }
@@ -29,7 +28,6 @@ function App() {
     let months = ['January','February','March','April','May','June','July','August','September','October','November','December']
     let days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
     let day = days[d.getDay()]
-    console.log('day', d);
     let date = d.getDate();
     let month = months[d.getMonth()];
     let year = d.getFullYear();
