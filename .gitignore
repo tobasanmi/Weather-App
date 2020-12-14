@@ -4,14 +4,14 @@
 /node_modules
 /.pnp
 .pnp.js
-/src/Keys.js
+
 
 # testing
 /coverage
 
 # production
 /build
-
+/src.keys.js
 # misc
 .DS_Store
 .env.local

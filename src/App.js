@@ -1,6 +1,7 @@
 import React,  {useState} from 'react';
 import './App.css';
 import { API_KEY, BASE_URL } from './Keys';
+// import {API_KEY,BASE_URL} from '.env'
 
 const api = {
   key: API_KEY,
